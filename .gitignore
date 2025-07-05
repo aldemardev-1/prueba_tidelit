@@ -1,0 +1,41 @@
+# ====================================
+# 1. Exclusiones Generales para Proyectos de Desarrollo
+# ====================================
+.DS_Store            
+Thumbs.db            
+.idea/               
+.vscode/           
+*.log               
+npm-debug.log* 
+yarn-debug.log* 
+.env                
+.env.local         
+.env.*.local         
+/.history/           
+
+# ====================================
+# 2. Exclusiones Específicas del Backend Symfony (dentro de symfony_vue_challenge/)
+# ====================================
+/symfony_vue_challenge/var/            
+/symfony_vue_challenge/public/bundles/ 
+/symfony_vue_challenge/public/build/   
+/symfony_vue_challenge/node_modules/  
+/symfony_vue_challenge/vendor/       
+/symfony_vue_challenge/.env.test       
+/symfony_vue_challenge/php_codesniffer.cache 
+/symfony_vue_challenge/composer.lock   
+
+# ====================================
+# 3. Exclusiones Específicas del Frontend Vue.js (dentro de my-vue-book-app/)
+# ====================================
+/my-vue-book-app/node_modules/ 
+/my-vue-book-app/dist/        
+/my-vue-book-app/.vite/       
+/my-vue-book-app/coverage/     
+/my-vue-book-app/.eslintcache
+/my-vue-book-app/yarn-error.log 
+
+# ====================================
+# 4. Archivos de Base de Datos
+# ====================================
+*.sqlite            
