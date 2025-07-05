@@ -88,8 +88,8 @@ Sigue estos pasos para configurar y ejecutar ambos proyectos en tu entorno local
 
 1.  **Clonar el Repositorio:**
     ```bash
-    git clone <URL_DE_TU_REPOSITORIO_GITHUB>
-    cd <nombre_de_tu_repositorio_clonado>
+    git clone https://github.com/aldemardev-1/prueba_tidelit.git
+    cd prueba_tidelit
     ```
 
 2.  **Instalar Dependencias de Composer:**
@@ -155,8 +155,8 @@ Sigue estos pasos para configurar y ejecutar ambos proyectos en tu entorno local
 
 ## 📸 Captura de Pantalla del API
 
-![imagen de books endpoint]('./imgs/books_endpoint.png')
-![imagen de reviews_post]('./imgs/reviews_post.png')
+![imagen de books endpoint](/imgs/books_endpoint.png)
+![imagen de reviews_post](/imgs/reviews_post.png)
 
 
 ### Endpoint: `GET /api/books`
@@ -193,8 +193,8 @@ Puedes acceder a este endpoint directamente en tu navegador después de iniciar 
 
 ### Vista Previa del Frontend
 
-![imagen del frontend 1]('./imgs/frontend_1.png')
-![imagen del frontend 2]('./imgs/frontend_2.png')
+![imagen del frontend 1](/imgs/frontend_1.png)
+![imagen del frontend 2](/imgs/frontend_2.png)
 
 ## 📈 Pregunta Opcional: Estrategias de Escalabilidad del API
 
