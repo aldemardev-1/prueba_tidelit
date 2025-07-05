@@ -153,7 +153,11 @@ Sigue estos pasos para configurar y ejecutar ambos proyectos en tu entorno local
 
     **¡Importante!** Asegúrate de que el backend Symfony (`http://127.0.0.1:8000`) esté funcionando **antes** de iniciar el frontend, ya que este último intentará consumir el API desde esa dirección.
 
-## 📸 Captura de Pantalla del API y Frontend en Acción
+## 📸 Captura de Pantalla del API
+
+![imagen de books endpoint]('./imgs/books_endpoint.png')
+![imagen de reviews_post]('./imgs/reviews_post.png')
+
 
 ### Endpoint: `GET /api/books`
 
@@ -189,7 +193,8 @@ Puedes acceder a este endpoint directamente en tu navegador después de iniciar 
 
 ### Vista Previa del Frontend
 
-
+![imagen del frontend 1]('./imgs/frontend_1.png')
+![imagen del frontend 2]('./imgs/frontend_2.png')
 
 ## 📈 Pregunta Opcional: Estrategias de Escalabilidad del API
 
